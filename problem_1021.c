@@ -27,15 +27,6 @@ void coins(double *X, double *arr, int size) {
 
 		Y = Y % (int)(arr[i] * 100);
 
-
-		/*if(i == 0) {
-			
-			printf("%d moeda(s) de R$ %lf\n", qnt, arr[i]);
-		} else {
-	
-			printf("%d moeda(s) de R$ %lf\n", qnt, arr[i]);
-		}*/
-		
 		printf("%d moeda(s) de R$ %.2lf\n", qnt, arr[i]);
 	}
 }
